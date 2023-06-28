@@ -14,6 +14,9 @@ header{
 .produto{
     background-color: #ffff;
     position: relative;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin: 10px;
 }
 .descricao{
     width: 50%;
@@ -27,4 +30,10 @@ img{
     position: absolute;
     top: 5px;
     right: 4px;
+}
+.finish{
+    width: 100%;
+    background-color: green;
+    color: bisque;
+    border-radius: 29px;
 }

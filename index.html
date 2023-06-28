@@ -14,14 +14,14 @@
 
     <h2>Primeiro, seu prato</h2>
     <section class="principal">
-        <div class="produto">
+        <div id="pao" class="produto" onclick="escolheuPao()">
             <p><strong>Pão na chapa </strong></p>
             <p class="descricao">douradinho</p>
             <span>R$ 9,90</span>
             <img src="https://www.comidaereceitas.com.br/wp-content/uploads/2021/02/pao_chapa-780x442.jpg" >
         </div>
 
-        <div class="produto">
+        <div id="croissant" class="produto" onclick="escolheuCroissant()">
             <p><strong>Croissant peito de peru</strong></p>
             <p class="descricao">Delicioso e saudável, com toque francês e sabor irresistível.</p>
             <span>R$ 19,90</span>
@@ -31,21 +31,21 @@
 
     <h2>Agora, sua bebida</h2>
     <section class="principal">
-        <div class="produto">
+        <div id="cafe" class="produto" onclick="escolheuCafe()">
             <p><strong>cafezinho </strong></p>
             <p class="descricao">quentinho</p>
             <span>R$ 3,50</span>
             <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/04/13/2081474064-beneficios-do-cafe.jpg" >
         </div>
 
-        <div class="produto">
+        <div id="leite" class="produto" onclick="escolheuLeite()">
             <p><strong>leite</strong></p>
             <p class="descricao">Delicioso with 350ml</p>
             <span>R$ 5,90</span>
             <img src="https://s3.static.brasilescola.uol.com.br/be/2022/06/leite.jpg" >
         </div>
 
-        <div class="produto">
+        <div id="crem" class="produto" onclick="escolheuCrem()">
             <p><strong>crem</strong></p>
             <p class="descricao">Delicioso e saudável.</p>
             <span>R$ 7,90</span>
@@ -53,6 +53,10 @@
         </div>
     </section>
 
-    
+    <button class="finish" onclick="finalizarPedido()">
+        Finalizar Pedido
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
